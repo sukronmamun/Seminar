@@ -1,0 +1,168 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-image:url(../images/bgl.jpeg);
+  -webkit-background-size: cover;
+   background-size: cover; 
+}
+body {
+}
+
+.login{
+  padding: 0;
+  background-color: #fff;
+}
+.login form h2{
+  color: #000; 
+}
+.login label{
+  color: #888;
+}
+.login .form{
+  height: 100%;
+}
+.login .note{
+  height: 100%;
+}
+.note,.form{
+  height: 380px;
+}
+.login .note{
+  background-color: #171616;
+  color: #fff !important;
+}
+.login .note p{
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-control{
+  border-radius: 0;
+
+}
+form input[type="email"],form input[type="password"]{
+ font-family: 'Raleway', sans-serif;
+  padding: 20px 5px;
+}
+
+.head{
+  height: 100px;
+  display: table-cell;
+  
+}
+
+.head h2{
+  margin: 20px;
+  vertical-align: middle;
+}
+.note-main p{
+  margin: 20px;
+}
+
+.form-main,.note-main{
+  height: 200px;
+}
+.action{
+height: 80px;
+}
+.action .btn-login{
+  margin-top: 15px;
+}
+
+.btn-login{
+  border-radius: 2px; 
+  padding: 10px 50px;
+
+
+}
+.icon-btn{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.form .btn-login{
+  background-color: #171616;
+  color: #fff;
+}
+
+.note .btn-login{
+  margin-top: 5px;
+  color: #fff;
+  background-color: #171616;
+  border: 1px solid #fff;
+
+}
+ 
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 200px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 200px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+
+
+
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+}
+}
